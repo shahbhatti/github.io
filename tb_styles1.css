@@ -191,4 +191,9 @@ footer::after {
    content: "";
    display: table;
 }
+table, th, td {
+  border: 1px solid black;
+  table-layout: auto;
+  width: 700px;
+}
 
